@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #222;
+}
+
+header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px 10%;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.blog-posts {
+  display: grid;
+  gap: 20px;
+  padding: 0 10%;
+}
+
+.post {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post h3 {
+  color: #333;
+}
+
+.post .date {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1a1a1a;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.read-more:hover {
+  border-color: #1a1a1a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #1a1a1a;
+  color: #fff;
+  margin-top: 40px;
+}
